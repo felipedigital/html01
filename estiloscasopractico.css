@@ -1,0 +1,43 @@
+
+body{
+	width: 900px;
+	margin:auto;
+	border: black solid 1px;
+}
+
+
+
+h1, h2{
+	background-color: green ;
+}
+
+p{
+	color: black;
+}
+
+table{
+	width:100%;
+	margin:auto;
+}
+
+table, th, td{
+	border: red solid 1px;
+	border-collapse:collapse; ;
+	
+}
+
+th, td{
+	padding: 5px;
+}
+
+div{border:blue solid 1px;
+}
+
+
+
+/*sistemas de columnas por % */
+
+.col-12{width:100%;}
+.col-6{width:50%;}
+.col-4{width:33,33333%;}
+.col-3{width:25%;}
